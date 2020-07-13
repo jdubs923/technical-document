@@ -1,0 +1,1 @@
+This is a template for a technical document built for FreeCodeCamp.
