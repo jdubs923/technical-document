@@ -3,17 +3,17 @@
 #navbar {
     margin: 0;
     padding: 0;
-}
+    height: 100%;
+    position: fixed;
+    width: 10%;
+    overflow: auto;
+} 
 
 #nav-bar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    position: fixed;
-    width: 25%;
-    overflow: auto;
     display: block;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-link {
@@ -28,11 +28,11 @@
 /* Main Doc */
 
 #main-doc {
-    margin-left: 25%;
+    margin-left: 10%;
 }
 
-@media (max-width: 900px) {
-    #nav-bar {
+@media screen and (max-width: 900px) {
+    #navbar {
         width: 100%;
         height: auto;
         position: relative;
@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     #nav-bar, .nav {
         text-align: center;
         float: none;
